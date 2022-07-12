@@ -1,35 +1,35 @@
-.places {
+.places ul {
+    align-items: center;
     display: flex;
-    flex-direction: column;
-}
-
-h1 {
-    font-size: 30px;
-    margin-top: 3%;
-    margin-left: 2%;
-    margin-bottom: 0;
-}
-
-.list_places {
-    display: flex;
-    flex-flow: row wrap;
-    width: 100%;
-    padding: 0;
-    margin: 0;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-article {
+.places h1 {
+    width: 100%;
+    text-align:left;
+    font-size: 30px;
+    position: relative;
+    margin-bottom: -15px;
+    margin-left: 20px;
+}
+
+.places h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.places article {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.places article li {
     width: 390px;
-    padding: 20px;
+    padding: 20px; 
     margin: 20px;
     border: 1px solid #FF5A5F;
     border-radius: 4px;
-}
-
-.heading_places {
-    font-size: 30px;
-    margin: 0;
-    padding: 0;
-    text-align: center;
 }

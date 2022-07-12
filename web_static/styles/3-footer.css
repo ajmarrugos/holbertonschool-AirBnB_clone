@@ -5,6 +5,8 @@ footer {
     width: 100%;
     border-top: 1px solid #CCCCCC;
     margin-top: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 p {

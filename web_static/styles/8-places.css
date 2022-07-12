@@ -1,0 +1,99 @@
+.places ul {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.places h1 {
+    width: 100%;
+    text-align:left;
+    font-size: 30px;
+    position: relative;
+    margin-bottom: -15px;
+    margin-left: 20px;
+}
+
+.places h2 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    margin-top: 0px;
+}
+
+.places article {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.places article li {
+    width: 390px;
+    padding: 20px; 
+    margin: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+}
+
+/* Price */
+
+.price_by_night {
+    color: #FF5A5F;
+    border: #FF5A5F solid 4px;
+    border-radius: 50%;
+    min-width: 70px;
+    height: 70px;
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 75%;
+    top: 12.5%;
+}
+
+/* Div images */
+
+.information .img_g {
+    background: url("../images/icon_group.png") no-repeat top center;
+    height: 50px;
+    width: 120px;
+}
+
+.information .img_r {
+    background: url("../images/icon_bed.png") no-repeat top center;
+    height: 50px;
+    width: 120px;
+}
+
+.information .img_b {
+    background: url("../images/icon_bath.png") no-repeat top center;
+    height: 50px;
+    width: 120px;
+}
+
+.information  {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    border-top: solid #DDDDDD 1px;
+    border-bottom: solid #DDDDDD 1px;
+}
+
+.information p {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+/* User */
+
+.user {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
